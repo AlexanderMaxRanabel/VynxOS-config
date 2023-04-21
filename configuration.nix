@@ -122,7 +122,8 @@
      go
      rustc
      cmake
-     
+     docker-client
+     # podman
      #more utilites
      libressl
      
