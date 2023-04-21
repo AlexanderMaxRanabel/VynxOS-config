@@ -1,5 +1,5 @@
 # VynxOS
-VynxOS is a developer oriented linux distrubtion which is based on NixOS that follows Plug-and-Play Principle. So it comes with a variety of software that
+VynxOS is a developer oriented linux distrubtion which is based on NixOS 22.11 that follows Plug-and-Play Principle. So it comes with a variety of software that
 Usually found in a enterprise-grade developer enviroment.
 
 ## Installion
