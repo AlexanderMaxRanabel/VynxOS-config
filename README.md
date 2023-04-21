@@ -7,7 +7,7 @@ WARNING: VynxOS IS ALPHA QUALITY SOFTWARE. USE IT WITH CATIOUN
 ## Installion
 VynxOS does not have an ISO yet(We are planning to release one soon) so you need to use configuration.nix order to install it.
 
-1. Install NixOS
+1. Install NixOS GNOME
 2. Clone Git Repo
 3. Change contents of /etc/nixos/configuration.nix with repos configuration.nix'S content
 4. change any ```choroalp``` in configuration.nix with your username 
