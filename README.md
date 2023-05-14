@@ -10,7 +10,7 @@ VynxOS does not have an ISO yet(We are planning to release one soon) so you need
 1. Install NixOS GNOME
 2. Clone Git Repo
 3. Change contents of /etc/nixos/configuration.nix with repos configuration.nix'S content
-4. change any ```choroalp``` in configuration.nix with your username 
+4. change any ```vynxos``` in configuration.nix with your username of choice
 5. do ```sudo nixos-rebuild switch``` then ```sudo nix-collect-garbage```
 6. Vola!
 
