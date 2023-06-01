@@ -88,7 +88,7 @@
     description = "vynxos";
     extraGroups = [ "networkmanager" "wheel" ];
     packages = with pkgs; [
-      firefox
+      librewolf
     #  thunderbird
     ];
   };
@@ -130,7 +130,7 @@
      #more utilites
      
     #chromium
-    brave
+    # brave
      #wget
   ];
 
