@@ -83,7 +83,7 @@
   # services.xserver.libinput.enable = true;
 
   # Define a user account. Don't forget to set a password with ‘passwd’.
-  users.users.vynxos = {
+  users.users.uservynxos = {
     isNormalUser = true;
     description = "vynxos";
     extraGroups = [ "networkmanager" "wheel" ];
@@ -125,10 +125,10 @@
      rustup
      cmake
      docker-client
-     
+
      # podman
      #more utilites
-     
+
     #chromium
     # brave
      #wget
