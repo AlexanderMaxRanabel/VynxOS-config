@@ -91,11 +91,12 @@
       librewolf
     #  thunderbird
     ];
+    shell = pkgs.nushell;
   };
 
   # Enable automatic login for the user.
   services.xserver.displayManager.autoLogin.enable = true;
-  services.xserver.displayManager.autoLogin.user = "vynxos";
+  services.xserver.displayManager.autoLogin.user = "choroalp";
 
   # Workaround for GNOME autologin: https://github.com/NixOS/nixpkgs/issues/103746#issuecomment-945091229
   systemd.services."getty@tty1".enable = false;
@@ -125,13 +126,8 @@
      rustup
      cmake
      docker-client
-
-     # podman
-     #more utilites
-
-    #chromium
-    # brave
-     #wget
+#  vim # Do not forget to add an editor to edit configuration.nix! The Nano editor is also installed by default.
+  #  wget
   ];
 
   # Some programs need SUID wrappers, can be configured further or are
@@ -153,7 +149,7 @@
   # Or disable the firewall altogether.
   # networking.firewall.enable = false;
 
-  # This value determines the NixOS / VynxOSrelease from which the default
+  # This value determines the NixOS release from which the default
   # settings for stateful data, like file locations and database versions
   # on your system were taken. It‘s perfectly fine and recommended to leave
   # this value at the release version of the first install of this system.
